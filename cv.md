@@ -1,20 +1,22 @@
-#CV
-*  ##Basic information
+# CV
+
+* ## Basic information
     + **Name:** Alena
     + **Surname:** Demina
-    ![avatar](/avatar.jfif "Фото профиля")
+    + **Avatar:**
+    ![avatar](/avatar.jpg "Фото профиля")
 
-* ##Contact information
+* ## Contact information
     + **Email:** alena2002d@ya.ru
     + **Telegram:** @EmilyHighwind
     + **Discord:** Alena Demina#0795
     + **Discord (rsschool server):** Alena (@AlenaDem)
 
-* ##About me
+* ## About me
     + In addition to studying at the university, I take courses and study different programming languages. In the future I plan to work in the IT field.
     + **Soft skills:** organization, responsibility (as evidenced by my high academic performance at the university).
 
-* ##Skills section
+* ## Skills section
     + I have basic skills in mastering the following programming languages:
         - C++
         - Java
@@ -24,14 +26,14 @@
         - CSS
         - Bootstrap
 
-* ##Education
+* ## Education
     + Student of the Yuri Gagarin State Technical University of Saratov.
     + **Specialty:** Information security of automated systems.
 
-* ##Projects
+* ## Projects
     + Messenger
     https://github.com/AlenaDem/Messenger
 
-* ##Languages
+* ## Languages
     + English (Intermediate)
     + Russian (Native speaker)
