@@ -1,10 +1,12 @@
 # CV
 
 * ## Basic information
-    + **Name:** Alena
+    + **Profile photo:**
+    
+    ![avatar](/avatar.jpg "Profile photo")
+    + **Name:** Alena 
     + **Surname:** Demina
-    + **Avatar:**
-    ![avatar](/avatar.jpg "Фото профиля")
+    
 
 * ## Contact information
     + **Email:** alena2002d@ya.ru
@@ -33,6 +35,23 @@
 * ## Projects
     + Messenger
     https://github.com/AlenaDem/Messenger
+
+* ## Code examples
+    + Codewars task
+        - Task. This code does not execute properly. Try to figure out why.
+        ```
+        function multiply(a, b) {
+            a * b
+        }
+        ```
+        - Solution:
+        ```
+        function multiply(a, b) {
+            a * b
+            return(a * b)
+        }
+        ```
+
 
 * ## Languages
     + English (Intermediate)
