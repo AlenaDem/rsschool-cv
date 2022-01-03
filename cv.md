@@ -3,7 +3,7 @@
 * ## Basic information
     + **Profile photo:**
     
-    ![avatar](/avatar.jpg "Profile photo")
+    ![image](https://user-images.githubusercontent.com/62592371/147970691-afce9cf3-ab01-4b3c-8fc9-56b50af689a3.png)
     + **Name:** Alena 
     + **Surname:** Demina
     
