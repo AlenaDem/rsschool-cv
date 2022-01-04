@@ -30,12 +30,12 @@
     </header>
     <main>
         <div class = "container main-container">
-            <section class="section" id="avatar">
-                <img src="./assets/img/avatar.jpg" alt="avatar">
-            </section>
-            <section class="section" id="profile">
-                <h1 class="section-title">Alena Demina</h1>
-                <p>Junior front-end developer</p>
+            <section class="section section-profile" id="profile">
+                <img src="./assets/img/avatar.jpg" alt="avatar" class="profile-image">
+                <div class="section-profile-title">
+                    <h1 class="section-title">Alena Demina</h1>
+                    <p>Junior front-end developer</p>
+                </div>
             </section>
             <section class="section" id="contacts">
                 <h2 class="section-title">Contacts</h2>
@@ -59,6 +59,13 @@
                     <li class="section-item">Version control: GIT, Github</li>
                 </ul>
             </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <code>function multiply(a, b) {<Br>
+                    a * b<Br>
+                    return(a * b)<Br>
+                }</code>
+            </section>
             <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
                 <p>Student of the Yuri Gagarin State Technical University of Saratov.</p>
@@ -74,13 +81,6 @@
                 <h2 class="section-title">Projects</h2>
                 <p>Messenger https://github.com/AlenaDem/Messenger</p>
             </section>
-            <section class="section" id="code">
-                <h2 class="section-title">Code</h2>
-                <p>function multiply(a, b) {
-                    a * b
-                    return(a * b)
-                }</p>
-            </section>
             <section class="section" id="english">
                 <h2 class="section-title">English</h2>
                 <p>B1 - Pre-Intermediate</p>
@@ -88,8 +88,10 @@
         </div>
     </main>
     <footer>
-        <div class = "container">
-            2022
+        <div class = "container footer-container">
+            <span>© 2022</span>
+            <a href="https://github.com/AlenaDem" class="github nav-link">AlenaDem</a>
+            <a href="https://rs.school/js/" class="rss"></a>
         </div>
     </footer>
     

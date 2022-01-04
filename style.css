@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth; 
 }
@@ -18,11 +22,17 @@ body {
 }
 
 header {
-    background-color: #311C3F
+    background-color: #311C3F;
+}
+
+footer {
+    background-color: #311C3F;
+    padding: 30px;
 }
 
 ul {
     list-style: none;
+    padding: 0;
 }
 
 .container {
@@ -30,15 +40,19 @@ ul {
     margin: 0 auto;
 }
 
+.footer-container {
+    color: #E8D7F4;
+}
+
 .nav-list {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    list-style: none;
+    margin: 18px 20%;
 }
 
 .nav-link {
-    padding: 0 20px;
+    padding: 0 12px;
     line-height: 50px;
     transition: .3s;
     color: #E8D7F4;
@@ -47,21 +61,55 @@ ul {
 }
 
 .nav-link:hover {
-    color: #200b41;
+    color: #9a44d3;
 }
 
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
   
 .section {
-    width: 50%;
+    width: calc(50% - 30px);
+    padding: 20px;
+    padding-bottom: 35px;
+    border: 1px solid #b48ccf;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 1px 14px 0px rgba(69, 34, 80, 0.16);
+}
+
+.section-profile {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 50px 30px 35px;
+    justify-content: space-around;
+}
+
+.section-profile-title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 3px 1px 14px 3px rgba(69, 34, 80, 0.45);
 }
 
 .section-item {
     position: relative;
-    padding-left: 25px;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 30px;
   }
   
 .section-item::before {
