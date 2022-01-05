@@ -35,6 +35,12 @@ ul {
     padding: 0;
 }
 
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -42,10 +48,13 @@ ul {
 
 .footer-container {
     color: #E8D7F4;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin: 18px 20%;
@@ -62,6 +71,20 @@ ul {
 
 .nav-link:hover {
     color: #9a44d3;
+}
+
+.toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: auto;
+    cursor: pointer;
+    user-select: none;
+    z-index: 15;
 }
 
 .main-container {
@@ -82,14 +105,15 @@ ul {
 .section-profile {
     width: 100%;
     display: flex;
-    align-content: center;
     justify-content: center;
     padding: 50px 30px 35px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .section-profile-title {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     text-align: center;
@@ -101,7 +125,7 @@ ul {
     height: 250px;
     border-radius: 50%;
     box-shadow: 3px 1px 14px 3px rgba(69, 34, 80, 0.45);
-    margin: 30px;
+    margin: 0 30px;
 }
 
 .section-item {
@@ -144,10 +168,16 @@ ul {
     border-bottom: 1px solid #431f5c;
 }
 
-@media (max-width: 768px) {
-    .section {
-      width: 100%;
-    }
+.code {
+    white-space: pre;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(./assets/svg/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .link {
