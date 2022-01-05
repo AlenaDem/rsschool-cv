@@ -7,18 +7,18 @@ html {
 }
 
 body {
-    background-color: #E8D7F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
+    background-color: #E8D7F4;
     color: #311C3F;
-    min-height: 100vh;
-    margin: 0; 
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 header {
@@ -26,13 +26,13 @@ header {
 }
 
 footer {
-    background-color: #311C3F;
     padding: 30px;
+    background-color: #311C3F;
 }
 
 ul {
-    list-style: none;
     padding: 0;
+    list-style: none;
 }
 
 @media (max-width: 768px) {
@@ -47,9 +47,9 @@ ul {
 }
 
 .footer-container {
-    color: #E8D7F4;
     display: flex;
     justify-content: space-between;
+    color: #E8D7F4;
 }
 
 .nav-list {
@@ -63,10 +63,10 @@ ul {
 .nav-link {
     padding: 0 12px;
     line-height: 50px;
-    transition: .3s;
     color: #E8D7F4;
     text-decoration: none;  
     transition: color 0.5s;
+    transition: .3s;
 }
 
 .nav-item {
@@ -110,9 +110,9 @@ ul {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 50px 30px 35px;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 50px 30px 35px;
 }
 
 .section-profile-title {
@@ -125,11 +125,11 @@ ul {
 }
 
 .profile-image {
+    margin: 0 30px;
     width: 250px;
     height: 250px;
     border-radius: 50%;
     box-shadow: 3px 1px 14px 3px rgba(69, 34, 80, 0.45);
-    margin: 0 30px;
 }
 
 .section-item {
@@ -141,10 +141,10 @@ ul {
 }
 
 .section-item a {
-    transition: .3s;
     color: #9247c4;
     text-decoration: none;  
     transition: color 0.5s;
+    transition: .3s;
 }
 
 .section-item a:hover {
@@ -176,11 +176,11 @@ ul {
 
 .main-title {
     position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #431f5c;
     font-size: 50px;
     letter-spacing: 2px;
     color: #431f5c;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #431f5c;
 }
 
 .code {
