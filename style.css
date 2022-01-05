@@ -69,6 +69,10 @@ ul {
     transition: color 0.5s;
 }
 
+.nav-item {
+    font-size: 20px;
+}
+
 .nav-link:hover {
     color: #9a44d3;
 }
@@ -134,7 +138,18 @@ ul {
     margin-bottom: 10px;
     padding: 0;
     padding-left: 30px;
-  }
+}
+
+.section-item a {
+    transition: .3s;
+    color: #9247c4;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+
+.section-item a:hover {
+    color: #311C3F;
+}
   
 .section-item::before {
     content: "";
@@ -178,14 +193,4 @@ ul {
     background-image: url(./assets/svg/rs_school_js.svg);
     background-size: contain;
     background-repeat: no-repeat;
-}
-
-.link {
-    text-decoration: none;
-    color: #9247c4;
-    transition: color 0.5s;
-}
-  
-.link:hover {
-    color: #311C3F;
 }
