@@ -15,7 +15,7 @@
     + **Discord:** Alena Demina#0795
     + **Discord (rsschool server):** Alena (@AlenaDem)
 
-* ## About me
+* ## Summary
     + In addition to studying at the university, I take courses and study different programming languages. In the future I plan to work in the IT field.
     + **Soft skills:** organization, responsibility (as evidenced by my high academic performance at the university).
 
@@ -48,12 +48,11 @@
         - Solution:
         ```
         function multiply(a, b) {
-            a * b
             return(a * b)
         }
         ```
 
 
 * ## Languages
-    + English (Intermediate)
+    + English (Pre-intermediate)
     + Russian (Native speaker)
